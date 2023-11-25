@@ -3,5 +3,5 @@ All the coding standards are close to best coding standards followed by all the 
 
 In this repo, We start everything from basics and follows sequntial order.
 ------
-Shell is native to linux and had better native advantage with better 
+Shell is native to linux and had better native advantage with better..
 ----------
