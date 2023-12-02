@@ -25,3 +25,4 @@ echo -e "\e[35m I am printing MAGENTA color \e[0m"
 echo -e "\e[43;34m I am printing Background+Foreground \e[0m"
 # Background + Foreground 
 echo -e "\e[45;34m My colours are diffrent \e[0m"
+echo -e "\e[46;35m Colours are good \e[0m"
