@@ -15,4 +15,5 @@ b=abc
 echo $a
 echo printing the value of a $a 
 echo printing the value of a ${a} 
-echo printing the value of b ${b}
+echo printing the value of b ${b} 
+echo printing the value of c ${c}
