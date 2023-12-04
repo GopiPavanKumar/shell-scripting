@@ -17,3 +17,5 @@ echo printing the value of a $a
 echo printing the value of a ${a} 
 echo printing the value of b ${b} 
 echo printing the value of c ${c}
+
+# rm -rf /data/prod/{CUSTDATA}  == rm -rf /data/prod/
