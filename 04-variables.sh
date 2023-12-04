@@ -13,5 +13,5 @@ b=abc
 # How can we print a variable ?  $var
 
 echo $a
-echo printing the value of $a 
-echo printing the value of ${a} 
+echo printing the value of a $a 
+echo printing the value of a ${a} 
