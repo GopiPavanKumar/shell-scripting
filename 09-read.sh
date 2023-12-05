@@ -1,4 +1,4 @@
 #!/bin/bash
 
-read -p "Enter your name:" name
+$name : Gopi
 echo "Name of the person is $name"
