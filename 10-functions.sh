@@ -32,7 +32,7 @@ f  # calling a function
 
 b56() {
     echo "This is our batch56 function"
-    echo " We are learning functions"
+    echo "We are learning functions"
     echo "Today date is:"
     date
     echo "function b56 is completed"
