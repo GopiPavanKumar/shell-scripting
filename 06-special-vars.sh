@@ -3,7 +3,7 @@
 # Special Variables are $0 to $9 , $* , $@ , $# , $$
 a=1000
 
-echo " Value of a is $a"
+echo "Value of a is $a"
 echo "Printing Script Name : $0"
 
 echo "First Argument is : $1"
