@@ -20,7 +20,7 @@ echo $0 # Prints Script Name
 echo $# # Prints the overall arguments used in the script
 echo $? # This prints the exit code of the last command
 echo $* # Prints all the arguments used.
-echo $@ # Prints last argument. 
+echo $@ # Prints all the arguments used.
 
 # echo "Variables Used In The Script $*"    # $* is going to print the used variables  
 # echo "Variabels used are $@"              # $@ is going to print the used variables  
