@@ -47,5 +47,3 @@ stat() {
 
     b56 # calling a function from another function
 }
-
-stat
