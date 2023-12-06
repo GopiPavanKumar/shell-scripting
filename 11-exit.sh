@@ -10,5 +10,5 @@ echo "Shall Scripting"
 a=100
 b=300
 echo $a
-COMMMENT
+COMMENT
 echo $b
