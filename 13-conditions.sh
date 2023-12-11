@@ -9,7 +9,7 @@
 #     opt1) commands-x ;;
 #     opt2) commans-y ;;
 # esac
-
+ACTION=$1                  # $1 refres first command line argument
 
 case $ACTION in 
     start)
