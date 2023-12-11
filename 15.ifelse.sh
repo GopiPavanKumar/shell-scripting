@@ -9,6 +9,7 @@ if [ "$ACTION" == "start" ] ; then
    exit 0
 else 
    echo -e "\e[31m Valid option is start only  \e[0m"
+   exit 1
 
 fi
 echo "It has not met any conditions"
