@@ -1,7 +1,9 @@
 #!/bin/bash
 
 <<COMMENT
+
 ```
+
 ### Expressions are categorized in to three types and based on the expression, we need to use operators
 ```
     1. Numbers
