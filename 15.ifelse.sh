@@ -7,10 +7,14 @@ ACTION=$1
 if [ "$ACTION" == "start" ] ; then 
    echo -e "\e[32m Starting shipping service \e[0m"
    exit 0
-else 
-   echo -e "\e[31m Valid option is start only  \e[0m"
+elif [ "$ACTION" == "stop" ] ; then 
+   echo -e "\e[33m Stopping shipping service \e[0m"
+   exit 1
+elif [ "$ACTION" == "stop" ] ; then 
+   echo -e "\e[33m Restarting shipping service \e[0m"
    exit 1
 
-fi
-echo "It has not met any conditions"
-exit 100
+else 
+   echo -e "\e[35m Valid option are start or stop or restart only  \e[0m"
+   exit 3
+
