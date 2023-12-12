@@ -12,7 +12,7 @@ elif [ "$ACTION" == "stop" ] ; then
    exit 1
 elif [ "$ACTION" == "restart" ] ; then 
    echo -e "\e[33m Restarting shipping service \e[0m"
-   exit 1
+   exit 2
 else 
    echo -e "\e[35m Valid option are start or stop or restart only  \e[0m"
    exit 3
