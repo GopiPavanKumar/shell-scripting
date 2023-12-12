@@ -1,7 +1,6 @@
 #!/bin/bash
 
 <<COMMENT
-
 ```
 
 ### Expressions are categorized in to three types and based on the expression, we need to use operators
@@ -12,12 +11,12 @@
 ```
 
 Operators on numbers:
-```
+
     -eq , -ne , -gt, -ge, -lt, -le
 
     [ 1 -eq 1 ] 
     [ 1 -ne 1 ]
-```
+
 
 Operators on Strings:
 
@@ -35,6 +34,7 @@ Operators on Strings:
 
 
 Operators on files:
+
     Lot of operators are available and you can check them using man pages of bash 
 
     [ -f file ] -> True of file exists and file is a regular file 
