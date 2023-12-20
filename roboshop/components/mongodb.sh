@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Configuring mongodb"
+echo -e "*****\e[32m Configuring mongodb \e[0m *****"
