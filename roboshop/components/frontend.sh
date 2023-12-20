@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Configuring catalogue"
+echo "Configuring frontend"
