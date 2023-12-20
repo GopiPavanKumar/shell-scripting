@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Configuring catalogue"
+echo -e "++++ \e[33m Configuring catalogue \e[0m +++++"
