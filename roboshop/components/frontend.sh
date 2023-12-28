@@ -1,5 +1,13 @@
 #!/bin/bash
 
+UID=$(id -u)
+
+if [ $UID -ne 0 ] ; then 
+   echo -e "\e[31m This script is expected to be executed with sudo or as a root user\e[0m"
+   echo -e "\e[35m Example Usage: \n\t\t \e[0m sudo bash scriptName componenteName"
+   exit 1
+fi
+
 echo -e "***** \e[35m Configuring frontend \e[0m *****"
 
 echo "Installing Nginx :"
