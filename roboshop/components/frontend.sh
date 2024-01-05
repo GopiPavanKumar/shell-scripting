@@ -24,7 +24,7 @@ echo -n "Installing Nginx :"
 yum install nginx -y      &>> $LOGFILE
 stat $?
 
-echo -n "Downloading Component ${COMPONENT}"
+echo -n "Downloading the ${COMPONENT} Component:"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip"
 stat $?
 
@@ -35,7 +35,7 @@ stat $?
 
 echo -n "Extracting ${COMPONENT} : "
 unzip -o  /tmp/${COMPONENT}.zip   &>> $LOGFILE
-ls -ltr /tmp/${COMPONENT}
+ls -ltr  /tmp/${COMPONENT}
 stat $?
 
 echo -n "Configuring $COMPONENT :"
