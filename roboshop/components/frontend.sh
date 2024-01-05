@@ -28,19 +28,18 @@ echo -n "Downloading Component $COMPONENT"
 curl -s -L -o /tmp/$COMPONENT.zip "https://github.com/stans-robot-project/$COMPONENT/archive/main.zip"
 stat $?
 
-echo -n "Cleanup of $1 component : "
+echo -n "Cleanup of $COMPONENT : "
 cd /usr/share/nginx/html
 rm -rf *     &>> $LOGFILE
 
 echo -n "Extracting $COMPONENT : "
-ls -ltr /tmp/
-unzip -o  "/tmp/frontend.zip"  &>> $LOGFILE
+unzip -o  /tmp/frontend.zip   &>> $LOGFILE
 stat $?
 
 echo -n "Configuring $COMPONENT :"
-mv $COMPONENT-main/* .
+mv ${COMPONENT}-main/* .
 mv static/* .
-rm -rf frontend-main README.md
+rm -rf {COMPONENT}-main README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $?
 
