@@ -34,7 +34,7 @@ rm -rf *     &>> $LOGFILE
 
 echo -n "Extracting $COMPONENT : "
 ls -ltr /tmp/
-unzip -o  /tmp/${COMPONENT}.zip  &>> $LOGFILE
+unzip -o  /tmp/${COMPONENT}.zip  
 stat $?
 
 echo -n "Configuring $COMPONENT :"
