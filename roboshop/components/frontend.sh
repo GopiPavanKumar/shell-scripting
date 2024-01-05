@@ -32,7 +32,8 @@ echo -n "Cleanup of $1 component : "
 cd /usr/share/nginx/html
 rm -rf *     &>> $LOGFILE
 
-echo -n "Extracting $1: "
+echo -n "Extracting $COMPONENT : "
+ls -ltr /tmp/
 unzip -o  /tmp/${COMPONENT}.zip  &>> $LOGFILE
 stat $?
 
