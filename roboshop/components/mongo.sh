@@ -52,8 +52,8 @@ stat $?
 
 echo -n "Injecting Schema :"
 cd /tmp/mongodb-main
-mongo < catalogue.js
-mongo < users.js
+mongo < catalogue.js  &>> $LOGFILE
+mongo < users.js      &>> $LOGFILE
 stat $?
 
 echo -e "***** \e[35m $COMPONENT Configuration is completed \e[0m *****"
